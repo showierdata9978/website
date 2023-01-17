@@ -1,9 +1,9 @@
-Hi im ShowierData9978, I have a youtube channel that goes by the same name. I
-rarely upload on it though (editing issue). I know some of alot of langs atleast
+Hi I'm ShowierData9978, I have a YouTube channel that goes by the same name. I
+rarely upload on it though (editing issue). I know some of alot of langs at least
 some, and can pick them up realy easily.
 
 <br />
-some examples of this (languges and tools):
+Some examples of this (languges and tools):
 <br />
 <br />
 <br />
