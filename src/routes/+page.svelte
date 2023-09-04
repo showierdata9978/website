@@ -14,28 +14,30 @@
 <p>
   Im a developer that works with alot of diffrent languges because i can
   translate them to most other languges specificly.
-  <br>
-  <br>
-  <br>
+  <br />
+  <br />
+  <br />
   The languges i use the most are
   <img
     src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
     class="img-inline"
-    width="50" height="50"
+    width="50"
+    height="50"
   />
   python,
-  <img 
-    src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png" 
+  <img
+    src="https://cdn-icons-png.flaticon.com/512/5968/5968292.png"
     class="img-inline"
-    width="50" height="50" 
+    width="50"
+    height="50"
   />
-   javascript, and
-  <img 
+  javascript, and
+  <img
     src="https://cdn.iconscout.com/icon/free/png-256/free-java-60-1174953.png"
-    width="50" 
+    width="50"
     height="50"
     class="img-inline"
-  /> 
+  />
   java.
 </p>
 
