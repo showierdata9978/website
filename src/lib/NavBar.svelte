@@ -1,7 +1,9 @@
 <script>
     import { goto } from "$app/navigation";
     import { redirect } from "@sveltejs/kit";
+    import DropDown from "$lib/DropDown.svelte";
 
+    let projects = [null, "meower" ]
 </script>
 
 <style>
@@ -29,12 +31,12 @@
         display: block;
         text-align: center;
         text-decoration: none;
-        margin: 1rem;
+        margin: .1rem;
 
 
         /* make the buttons look like links */
-        background-color: transparent;
         border: none;
+        background-color: transparent;
         cursor: pointer;
         outline: none;
 
@@ -69,14 +71,25 @@
 
 <div class="navbar">
     
-    <button class="navbar-logo"> 
-        <a href="https://github.com/showierdata9978/"> 
-            ShowierData9978 
-        </a> 
+    
+    <button class="navbar-logo" on:click={() => goto("/")}>
+        ShowierData9978
     </button>
 
+
     <div class="navbar-links">
-        <button class="navbar-item" on:click={() => goto("/")}>Home</button>
-        <button class="navbar-item" on:click={() => goto("/about")}>About</button>
+     <div class="navbar-item">
+        <DropDown name="Projects"> 
+            {#each projects as project}
+                <button 
+                    class="navbar-item" 
+                    style="margin: 1rem"
+                    on:click={() => goto("/projects/" + (project ? project : ""))}> 
+                        {project ? project : "All"} 
+                </button>
+            {/each}
+
+        </DropDown>
+        </div>
     </div>
 </div>
