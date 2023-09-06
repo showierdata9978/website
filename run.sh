@@ -1,20 +1,11 @@
-#check if the user does not want to build the app
-if [ "$1" != "--no-build" ]; then
-    # Build the app
-    bash ./build.sh
-    python3 -m pip install -r App/requirements.txt
+if [ "$1" == "--build" ]
+then
+    npm run build
 fi
 
-cd App
-
-# check if  Public folder exists
-if [ ! -d "Public" ]; then
-    echo "Build failed: Public folder not found"
-    exit 1
-fi
-
-
-python3 __main__.py
-
-# exit with the exit code of the last command
-exit $?
+WEBSITE_HOST="127.0.0.1" \
+WEBSITE_PORT=4000 \
+WEBSITE_ORIGIN="https://showierdata.xyz" \
+WEBSITE_ADDRESS_HEADER=X-Forwarded-For \
+XFF_DEPTH=1 \
+node server.js
