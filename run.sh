@@ -4,7 +4,7 @@ then
 fi
 
 WEBSITE_HOST="127.0.0.1" \
-WEBSITE_PORT=4000 \
+WEBSITE_PORT=8000 \
 WEBSITE_ORIGIN="https://showierdata.xyz" \
 WEBSITE_ADDRESS_HEADER=X-Forwarded-For \
 XFF_DEPTH=1 \
