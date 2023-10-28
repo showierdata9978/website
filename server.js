@@ -19,7 +19,11 @@ const logger = createLogger({
     timestamp(),
     myFormat
   ),
-  transports: [new transports.Console()],
+  transports: [
+      new transports.Console()
+      new transports.File({ filename: 'error.log', level: 'error' }),
+      new transports.File({ filename: 'combined.log' }),
+  ],
 });
 
 const app = express();
