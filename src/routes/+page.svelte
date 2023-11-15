@@ -31,7 +31,8 @@
     <div class="i-wrapper">
       <a href="https://www.youtube.com/channel/UCF6jJe8th14QKWUrfzNMDMA" target="_blank"> <i class="fab fa-youtube" style="color: #FF0000;"></i> </a><!-- YouTube Red -->
       <a href="https://discord.gg/qzFqbsWQnd" target="_blank"><i class="fab fa-discord" style="color: #7289DA;"></i></a>  <!-- Discord Bluish-purple -->
-      <a href="https://github.com/showierdata9978" target="_blank"> <i class="fa-brands fa-github" style="color: #0;"></i></a>
+      <a href="https://github.com/showierdata9978" target="_blank"> <i class="fa-brands" style="background-image: https://mastodon.social/packs/media/images/logo-d4b5dc90fd3e117d141ae7053b157f58.svg; color: #0;"></i></a>
+      <a rel="me" href="https://mastodon.social/@ShowierData9978">Mastodon</a>
       <!-- Add more icons as needed -->
     </div>
   </div>
